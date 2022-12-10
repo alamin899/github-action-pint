@@ -1,0 +1,10 @@
+name: Auto commit code formatter
+on: [push]
+  branch: [master]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered when any file changes event."
+      - run: git status
+      - run: ./vendor/bin/pint
