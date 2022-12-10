@@ -1,6 +1,5 @@
 name: Auto commit code formatter
 on: [push]
-  branch: [master]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
